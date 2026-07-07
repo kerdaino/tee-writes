@@ -12,6 +12,15 @@
 <!-- External CSS -->
 <link rel="stylesheet" href="/assets/css/styles.css">
 
+<!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- Favicon -->
+ <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/media/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/media/favicon-16x16.png">
+<link rel="manifest" href="/assets/media/site.webmanifest">
+
 <!-- Open Graph / Social -->
 <meta property="og:title" content="Orugboh Tosan — Tee Writes">
 <meta property="og:description" content="Bringing words to life with grace & precision — ghostwriting, copywriting, and content for faith-led brands.">
@@ -21,7 +30,7 @@
 <body>
 <header class="site-header">
 <div class="container header-inner">
-<a class="brand" href="#">Tee Writes</a>
+<a class="brand" href="#"><img src="/assets/media/tee-writes-logo.svg" alt="tee-writes-logo"></a>
 <nav class="nav">
 <a href="#home">Home</a>
 <a href="#about">About</a>
@@ -44,7 +53,7 @@
 <div class="container hero-inner">
 <div class="hero-text">
 <h1>Bringing Words to Life with Grace &amp; Precision</h1>
-<p class="lead">I’m Orugboh Tosan — a faith-inspired writer and the founder of <strong>Tee Writes</strong>. I craft short stories, blog posts, and compelling copy that honor message and mission.</p>
+<p class="lead">I’m Orugboh Tosan — a faith-inspired writer and the founder of <strong>Tee Writes</strong>. I craft stories, blog posts, and compelling copy that honor message and mission.</p>
 
 <div class="hero-ctas">
 <a class="btn btn-primary" href="#contact">Hire Me</a>
@@ -54,7 +63,7 @@
 </div>
 
 <aside class="hero-card">
-<img src="https://via.placeholder.com/360x240?text=Author+Photo" alt="Orugboh Tosan" class="author-photo">
+<img src="/assets/media/founder-image.svg" alt="Orugboh Tosan" class="author-photo">
 <p class="small">Founder, Tee Writes — Specialising in Ghostwriting, Content, &amp; Copy.</p>
 </aside>
 </div>
@@ -66,8 +75,8 @@
 <h2>About</h2>
 <div class="about-grid">
 <div>
-<p>My journey with words began early and has always been guided by faith. I help individuals and ministries tell meaningful stories, craft persuasive messaging, and communicate with clarity and compassion.</p>
-<p>Whether you need a full-length ghostwritten memoir or a short, shareable blog post, I approach each project with prayerful attention to voice, nuance, and purpose.</p>
+<p>My journey with words began early and has always been guided by faith. I help individuals and businesses tell meaningful stories, craft persuasive messaging, and communicate with clarity and compassion.</p>
+<p>Whether you need a full-length ghostwritten memoir or a short, shareable blog post, I approach each project with detailed attention to voice, nuance, and purpose.</p>
 </div>
 <div class="about-quick">
 <ul>
@@ -140,27 +149,6 @@
 </article>
 
 </div>
-
-<!-- Upload portal (front-end) -->
-<div class="upload-panel">
-<h4>Upload a writing sample</h4>
-<p class="small muted">Upload will send files to your configured backend or Google Drive (see script comments).</p>
-<form id="uploadForm">
-<input type="text" name="title" placeholder="Title" required>
-<select name="category">
-<option value="ghostwriting">Ghostwriting</option>
-<option value="copywriting">Copywriting</option>
-<option value="articles">Articles</option>
-<option value="stories">Stories</option>
-</select>
-<input type="file" name="file" accept=".pdf,.doc,.docx,.txt" required>
-<div class="upload-actions">
-<button class="btn btn-primary" type="submit">Upload</button>
-<span id="uploadStatus" class="small muted"></span>
-</div>
-</form>
-</div>
-</div>
 </section>
 
 <!-- SERVICES -->
@@ -213,13 +201,12 @@
 <div class="contact-grid">
 <div>
 <p>Ready to work together? Send a message or reach me directly on WhatsApp.</p>
-<p><strong>Email:</strong> <a href="mailto:hello@teewrites.com">hello@teewrites.com</a></p>
+<p><strong>Email:</strong> <a href="mailto:hello@teewrites.com">tosanorugboh94@gmail.com</a></p>
 <p><strong>WhatsApp:</strong> <a href="https://wa.me/2347013117843" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
 
 <div class="socials">
-<a href="#" aria-label="twitter">Twitter</a>
-<a href="#" aria-label="linkedin">LinkedIn</a>
-<a href="#" aria-label="instagram">Instagram</a>
+<a href="#" aria-label="twitter"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
 </div>
 </div>
 
@@ -248,10 +235,10 @@ Message
 
 <footer class="site-footer">
 <div class="container footer-inner">
-<p>© 2025 Tee Writes | Built by KD Global.</p>
+<p>© 2025 <a href="https://www.kdevglobal.com" target="_blank">Tee Writes | Built by KD Global.</a></p>
 <nav>
-<a href="#privacy">Privacy</a>
-<a href="#terms">Terms</a>
+<!-- <a href="#privacy">Privacy</a>
+<a href="#terms">Terms</a> -->
 </nav>
 </div>
 </footer>
@@ -265,7 +252,7 @@ Message
 </div>
 
 <!-- Floating WhatsApp -->
-<a class="whatsapp-fab" href="https://wa.me/2347013117843" target="_blank" aria-label="Chat on WhatsApp"></a>
+<a class="whatsapp-fab" href="https://wa.me/2347013117843" target="_blank" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
 <!-- External JS -->
 <script src="/assets/js/script.js"></script>
